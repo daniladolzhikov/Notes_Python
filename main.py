@@ -8,6 +8,7 @@ def main():
         print("3. Редактировать заметку")
         print("4. Удалить заметку")
         print("5. Выйти")
+        print()
         choice = input("Выберите действие: ")
 
         if choice == '1':
@@ -25,3 +26,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
