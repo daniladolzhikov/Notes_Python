@@ -1,19 +1,19 @@
-
+from loggers import add_note, list_notes, edit_note, delete_note
 
 def main():
     while True:
         print("\nМеню:")
-        print("1. Добавить заметку")
-        print("2. Поиск заметки")
-        print("3. Изменить заметку")
+        print("1. Список заметок")
+        print("2. Добавить заметку")
+        print("3. Редактировать заметку")
         print("4. Удалить заметку")
         print("5. Выйти")
         choice = input("Выберите действие: ")
 
         if choice == '1':
-            add_note()
+            list_notes()
         elif choice == '2':
-            search_note()
+            add_note()
         elif choice == '3':
             edit_note()
         elif choice == '4':
